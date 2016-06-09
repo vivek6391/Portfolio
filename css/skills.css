@@ -1,0 +1,57 @@
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.facebook {
+  background: url(../images/Facebook.png) no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.linkedin {
+  background: url(../images/Linkedin.png) no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.github {
+  background: url(../images/Github.png) no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.twitter {
+  background: url(../images/Twitter.png) no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
